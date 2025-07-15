@@ -43,6 +43,16 @@ python links.py
 ```
 Isso irá ler data/template_links.xlsx e gerar output/links.kml.
 
+🛰️ Exemplos no Google Earth
+
+📍 Visualização de ponto (site)
+
+![Site A](docs/exemplo-site.png)
+
+🔗 Visualização de enlace (link entre dois sites)
+
+![Site A - Site B](docs/exemplo-link.png)
+
 
 📌 Observações
 
