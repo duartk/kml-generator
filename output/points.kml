@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Folder id="2">
+            <Style id="5">
+                <IconStyle id="6">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="7">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="10">
+                <IconStyle id="11">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="12">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>SP</name>
+            <Placemark id="4">
+                <name>Site A</name>
+                <description>SITE: Site A</description>
+                <Snippet maxLines="1"/>
+                <styleUrl>#5</styleUrl>
+                <Point id="3">
+                    <coordinates>-46.720121,-23.600081,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="9">
+                <name>SiteB</name>
+                <description>SITE: SiteB</description>
+                <Snippet maxLines="1"/>
+                <styleUrl>#10</styleUrl>
+                <Point id="8">
+                    <coordinates>-46.665232,-23.548513,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

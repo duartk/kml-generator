@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Folder id="2">
+            <Style id="5">
+                <IconStyle id="6">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="7">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="10">
+                <IconStyle id="11">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="12">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="15">
+                <LineStyle id="16">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+            </Style>
+            <Style id="19">
+                <IconStyle id="20">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="21">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="24">
+                <IconStyle id="25">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="26">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="29">
+                <LineStyle id="30">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+            </Style>
+            <name>SP</name>
+            <Placemark id="4">
+                <name>Site A</name>
+                <description>Latitude: -22.962683
+Longitude: -46.88375</description>
+                <styleUrl>#5</styleUrl>
+                <Point id="3">
+                    <coordinates>-46.88375,-22.962683,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="9">
+                <name>Site B</name>
+                <description>Latitude: -22.9646
+Longitude: -46.8454</description>
+                <styleUrl>#10</styleUrl>
+                <Point id="8">
+                    <coordinates>-46.8454,-22.9646,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="14">
+                <name>Site A - Site B</name>
+                <description>
+        Site A:
+        Altura: 50 m
+
+        Site B:
+        Altura: 40 m
+        </description>
+                <styleUrl>#15</styleUrl>
+                <LineString id="13">
+                    <extrude>1</extrude>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>-46.88375,-22.962683,50 -46.8454,-22.9646,40</coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark id="18">
+                <name>Site C</name>
+                <description>Latitude: -23.927119
+Longitude: -48.702461</description>
+                <styleUrl>#19</styleUrl>
+                <Point id="17">
+                    <coordinates>-48.702461,-23.927119,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="23">
+                <name>Site D</name>
+                <description>Latitude: -24.009825
+Longitude: -48.878006</description>
+                <styleUrl>#24</styleUrl>
+                <Point id="22">
+                    <coordinates>-48.878006,-24.009825,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="28">
+                <name>Site C - Site D</name>
+                <description>
+        Site C:
+        Altura: 45 m
+
+        Site D:
+        Altura: 50 m
+        </description>
+                <styleUrl>#29</styleUrl>
+                <LineString id="27">
+                    <extrude>1</extrude>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>-48.702461,-23.927119,45 -48.878006,-24.009825,50</coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
